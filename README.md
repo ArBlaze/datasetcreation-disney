@@ -1,14 +1,9 @@
-Simple scraper and analysis
+## Disney Wikipedia Page Scraper
 
-Not much thought put into this (yet). Scraper is pretty messy in terms of code and analysis is not done yet.
+Here, we create a dataset by scraping links off a Wikipedia page, then going into those links and obtaining information from the
+information box of each page. We do a bit of cleaning of the data as best as we can to make it presentable. Data are then saved 
+as a .json file.
 
-TODO:
 
-- Fix up code so that it looks more clean
-- Remove ( ) and [ ] and text in between those from release date, then afterwards convert release date to datetime object
-- Fix up box office numbers so that it keeps decimal point
 
---------- > After those are fixed
-
-- Simple EDA of the data
 
